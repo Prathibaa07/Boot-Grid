@@ -1,24 +1,87 @@
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         body{
-            background-image: url("London.jpeg.png") ;
-            background-repeat:repeat ;
-            background-size: cover;
+            background-color: lightsalmon;
         }
-        h1{
-            color: rgb(191, 255, 0);
+        .card{
+            margin-bottom: 20px;
+            background-color: lightskyblue;
+            align-items: center;
         }
-        p{
-            color: brown;
+        .card img{
+            width: 250px;
+            height: 250px;
+        }
+        .card-title{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .card-text{
+            color: blueviolet;
+            font-weight: bold;
         }
     </style>
-    </head>
-    <body>
-        <center>
-            <h1>London Bridge</h1>
-            <h1><p>The first stone bridge, built in 1209, took 33 years to complete and featured 20 Gothic-style arches. Over the centuries, the bridge has faced Viking attacks, fires, and even ice damage. Today, it stands as a crucial transport hub and a major tourist attraction.</p></h1>
-        </center>
-        <center>
-            <img src="London.jpeg.png" width="300px" height="300px">
-        </center>
-    </body>
+</head>
+<body>
+    <div class="container mt-4">
+        <h2 class="text-center mb-4">Our Products</h2>
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-12">
+                <div class="card">
+                    <img src="Washing machine.png" class="card-img-top" alt="Washing Machine">
+                    <div class="card-body text-center">
+                        <div class="card-title">Washing Machine</div>
+                        <p class="card-text">Rs.18,000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-12">
+                <div class="card">
+                    <img src="Telivision.png" class="card-img-top" alt="Television">
+                    <div class="card-body text-center">
+                        <div class="card-title">Television</div>
+                        <p class="card-text">Rs.50,000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-12">
+                <div class="card">
+                    <img src="Steeling fan.png" class="card-img-top" alt="Steeling Fan">
+                    <div class="card-body text-center">
+                        <div class="card-title">Steeling Fan</div>
+                        <p class="card-text">Rs.800</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-12">
+                <div class="card">
+                    <img src="Mixer Grinder.png" class="card-img-top" alt="Mixer Grinder">
+                    <div class="card-body text-center">
+                        <div class="card-title">Mixer Grinder</div>
+                        <p class="card-text">Rs.2,200</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-12">
+                <div class="card">
+                    <img src="Air Conditioner.png" class="card-img-top" alt="Air Conditioner">
+                    <div class="card-body text-center">
+                        <div class="card-title">Air Conditioner</div>
+                        <p class="card-text">Rs.15,000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-12">
+                <div class="card">
+                    <img src="Wet grinder.png" class="card-img-top" alt="Wet Grinder">
+                    <div class="card-body text-center">
+                        <div class="card-title">Wet Grinder</div>
+                        <p class="card-text">Rs.10,000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
